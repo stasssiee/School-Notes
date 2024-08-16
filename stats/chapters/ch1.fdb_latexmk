@@ -1,11 +1,12 @@
 # Fdb version 4
-["pdflatex"] 1723735113.23791 "c:/Users/Augustine Su/Documents/try/stats/chapters/ch1.tex" "chapters/ch1.pdf" "ch1" 1723735114.96873 0
+["pdflatex"] 1723748668.0064 "c:/Users/Augustine Su/Documents/School Notes/stats/chapters/ch1.tex" "chapters/ch1.pdf" "ch1" 1723748669.56355 0
   "../Templates/jointPreamble.tex" 1723734146 3908 d3c500f523fc84ce44de9353dc025a90 ""
   "C:/Users/Augustine Su/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1723733230 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Augustine Su/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1723732418 24228427 931af1f50873d2b16e087e833dbaffa0 ""
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmss10.tfm" 1136765053 1316 b636689f1933f24d1294acdf6041daaa ""
+  "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmss12.tfm" 1136765053 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmss17.tfm" 1136765053 1320 ed93d62c5f2c16343826001f03341dbc ""
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmssbx10.tfm" 1136765053 1272 e2d13f0df30bf3ad990bb9d028e37f34 ""
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb" 1247596666 24457 5cbb7bdf209d5d1ce9892a9b80a307cc ""
@@ -160,12 +161,12 @@
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "c:/Users/Augustine Su/Documents/try/stats/chapters/ch1.tex" 1723735110 339 9da4fbbaf3d53f77b9e47219ae2f857a ""
-  "chapters/../stats.tex" 1723734860 349 b1b2ccb6d8822ceac0b7d33c42ce32a4 ""
-  "chapters/ch1.aux" 1723735114 379 163500ef3d9511ac3445bf29ad1c224e "pdflatex"
-  "chapters/ch1.out" 1723735114 91 83070a65bc3c251150a9d158cb2730bd "pdflatex"
-  "chapters/ch1.tex" 1723735110 339 9da4fbbaf3d53f77b9e47219ae2f857a ""
-  "stats.tex" 1723734860 349 b1b2ccb6d8822ceac0b7d33c42ce32a4 ""
+  "c:/Users/Augustine Su/Documents/School Notes/stats/chapters/ch1.tex" 1723748667 979 1867bd3fcdd6938886971f4e0b202fe6 ""
+  "chapters/../stats.tex" 1723748551 349 b1b2ccb6d8822ceac0b7d33c42ce32a4 ""
+  "chapters/ch1.aux" 1723748669 405 b4c926c40412584641c115a66074170a "pdflatex"
+  "chapters/ch1.out" 1723748669 230 478b4f0055b504b8c4d178329a4e0b48 "pdflatex"
+  "chapters/ch1.tex" 1723748667 979 1867bd3fcdd6938886971f4e0b202fe6 ""
+  "stats.tex" 1723748551 349 b1b2ccb6d8822ceac0b7d33c42ce32a4 ""
   (generated)
   "chapters/ch1.aux"
   "chapters/ch1.log"

@@ -1,18 +1,13 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.15)  15 AUG 2024 14:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.15)  15 AUG 2024 14:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Augustine Su/Documents/School Notes/stats/chapters/ch1.tex"
-(c:/Users/Augustine Su/Documents/School Notes/stats/chapters/ch1.tex
+**"c:/Users/Augustine Su/Documents/School Notes/UIL Math/uilmath.tex"
+(c:/Users/Augustine Su/Documents/School Notes/UIL Math/uilmath.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
-(C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.cls
-Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
-Preamble taken from file `../stats.tex'
-(C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
-Package: import 2020/04/01  v 6.2
-) (c:\Users\Augustine Su\Documents\School Notes\stats\stats.tex (C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+(C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
 File: bk10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
@@ -783,27 +778,29 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \c@theo=\count336
 ) (C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
-))) (c:\Users\Augustine Su\Documents\School Notes\stats\chapters\ch1.aux)
-\openout1 = `ch1.aux'.
+ (C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+Package: import 2020/04/01  v 6.2
+)) (uilmath.aux)
+\openout1 = `uilmath.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -858,36 +855,53 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 3.
- (c:\Users\Augustine Su\Documents\School Notes\stats\chapters\ch1.out) (c:\Users\Augustine Su\Documents\School Notes\stats\chapters\ch1.out)
+Package hyperref Info: Link coloring OFF on input line 10.
+ (uilmath.out) (uilmath.out)
 \@outlinefile=\write4
-\openout4 = `ch1.out'.
+\openout4 = `uilmath.out'.
 
+ (uilmath.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+ (C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+ (C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+esint on input line 1.
+ (C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
+File: uesint.fd 
+))
+\tf@toc=\write5
+\openout5 = `uilmath.toc'.
 
+ (chapters/ch1.tex [1
+
+{C:/Users/Augustine Su/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 Chapter 1.
-[1
+) [2
 
-
-{C:/Users/Augustine Su/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (c:\Users\Augustine Su\Documents\School Notes\stats\chapters\ch1.aux)
+] (uilmath.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `ch1.out' has not changed.
-(rerunfilecheck)             Checksum: 478B4F0055B504B8C4D178329A4E0B48;230.
+Package rerunfilecheck Info: File `uilmath.out' has not changed.
+(rerunfilecheck)             Checksum: 83070A65BC3C251150A9D158CB2730BD;91.
  ) 
 Here is how much of TeX's memory you used:
- 25440 strings out of 474485
- 495123 string characters out of 5740394
- 1929542 words of memory out of 5000000
- 47283 multiletter control sequences out of 15000+600000
- 560181 words of font info for 43 fonts, out of 8000000 for 9000
+ 25485 strings out of 474485
+ 495427 string characters out of 5740394
+ 1927542 words of memory out of 5000000
+ 47306 multiletter control sequences out of 15000+600000
+ 562917 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 142i,5n,141p,1254b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,5n,124p,1252b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on "c:\Users\Augustine Su\Documents\School Notes\stats\chapters\ch1.pdf" (1 page, 28749 bytes).
+Output written on uilmath.pdf (2 pages, 23265 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
+ 34 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

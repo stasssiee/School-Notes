@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1723748723.64569 "c:/Users/Augustine Su/Documents/School Notes/UIL Math/uilmath.tex" "uilmath.pdf" "uilmath" 1723748725.04668 0
+["pdflatex"] 1723926226.19614 "c:/Users/Augustine Su/Documents/School Notes/UIL Math/uilmath.tex" "uilmath.pdf" "uilmath" 1723926227.82651 0
   "../Templates/jointPreamble.tex" 1723734146 3908 d3c500f523fc84ce44de9353dc025a90 ""
   "C:/Users/Augustine Su/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1723733230 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Augustine Su/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1723732418 24228427 931af1f50873d2b16e087e833dbaffa0 ""
@@ -173,12 +173,16 @@
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "c:/Users/Augustine Su/Documents/School Notes/UIL Math/uilmath.tex" 1723748721 314 1fc32dc2bec8ef54f6fa94a9b1b2e67c ""
-  "chapters/ch1.tex" 1723748721 138 d222bc7f0f65eba888d6e66c90b5ccb9 ""
-  "uilmath.aux" 1723748724 379 6c4ba4d2e04e384625b66b42251384c6 "pdflatex"
-  "uilmath.out" 1723748724 91 83070a65bc3c251150a9d158cb2730bd "pdflatex"
-  "uilmath.tex" 1723748721 314 1fc32dc2bec8ef54f6fa94a9b1b2e67c ""
-  "uilmath.toc" 1723748724 65 1542ffce577eca91553f7d38c84303be "pdflatex"
+  "c:/Users/Augustine Su/Documents/School Notes/UIL Math/uilmath.tex" 1723926223 410 a8f0c5b5fd00cb2f1592cd1338d23f14 ""
+  "chapters/ch1.tex" 1723926223 136 041e25564737257323af7ada691c8051 ""
+  "chapters/ch2.tex" 1723926223 137 8715ae476617f3deefa253fee5bfc31b ""
+  "chapters/ch3.tex" 1723926223 141 9b1fdb8c220da70882a93507451dc0ac ""
+  "chapters/ch4.tex" 1723926223 139 b231464e60cb7726d9e3389eec34477a ""
+  "chapters/ch5.tex" 1723926223 137 bf2f1c4dce398c949053fccf68939b3d ""
+  "uilmath.aux" 1723926227 1107 3bef6e0ab428d0b822dc4d33df54517c "pdflatex"
+  "uilmath.out" 1723926227 440 ac4d53372d5ae4da51fea5a657370872 "pdflatex"
+  "uilmath.tex" 1723926223 410 a8f0c5b5fd00cb2f1592cd1338d23f14 ""
+  "uilmath.toc" 1723926227 325 8171aa591268ce075428adb6c2c81e9d "pdflatex"
   (generated)
   "uilmath.aux"
   "uilmath.log"

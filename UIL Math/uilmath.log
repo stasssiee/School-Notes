@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.15)  15 AUG 2024 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.15)  17 AUG 2024 15:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -880,7 +880,23 @@ File: uesint.fd
 
 {C:/Users/Augustine Su/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 Chapter 1.
-) [2
+) (chapters/ch2.tex [2
+
+]
+Chapter 2.
+) (chapters/ch3.tex [3
+
+]
+Chapter 3.
+) (chapters/ch4.tex [4
+
+]
+Chapter 4.
+) (chapters/ch5.tex [5
+
+]
+Chapter 5.
+) [6
 
 ] (uilmath.aux)
  ***********
@@ -888,20 +904,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `uilmath.out' has not changed.
-(rerunfilecheck)             Checksum: 83070A65BC3C251150A9D158CB2730BD;91.
+(rerunfilecheck)             Checksum: AC4D53372D5AE4DA51FEA5A657370872;440.
  ) 
 Here is how much of TeX's memory you used:
- 25485 strings out of 474485
- 495427 string characters out of 5740394
- 1927542 words of memory out of 5000000
- 47306 multiletter control sequences out of 15000+600000
+ 25529 strings out of 474485
+ 496375 string characters out of 5740394
+ 1929542 words of memory out of 5000000
+ 47330 multiletter control sequences out of 15000+600000
  562917 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,5n,124p,1252b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on uilmath.pdf (2 pages, 23265 bytes).
+Output written on uilmath.pdf (6 pages, 30559 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

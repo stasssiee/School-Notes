@@ -1,8 +1,0 @@
-\contentsline {chapter}{\numberline {1}Chemistry of Life}{2}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Cell Structure and Function}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Celluar Energetics}{4}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Cell Communication and Cell Cycle}{5}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Heredity}{6}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Gene Expression and Regulation}{7}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Natural Selection}{8}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Ecology}{9}{chapter.8}%

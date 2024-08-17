@@ -1,5 +1,0 @@
-\contentsline {chapter}{\numberline {1}Algebra}{2}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Geometry}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Pre-Calculus}{4}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Statistics}{5}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Calculus}{6}{chapter.5}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.15)  15 AUG 2024 21:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.15)  17 AUG 2024 13:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -880,31 +880,73 @@ File: uesint.fd
 
 {C:/Users/Augustine Su/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 43.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 36.
 (C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [2
+)) (chapters/ch2.tex [2
 
-]) [3] (stats.aux)
+]
+Chapter 2.
+) (chapters/ch3.tex [3
+
+]
+Chapter 3.
+) (chapters/ch4.tex [4
+
+]
+Chapter 4.
+) (chapters/ch5.tex [5
+
+]
+Chapter 5.
+) (chapters/ch6.tex [6
+
+]
+Chapter 6.
+) (chapters/ch7.tex [7
+
+]
+Chapter 7.
+
+Overfull \hbox (31.55885pt too wide) in paragraph at lines 4--4
+|[]\OT1/cmss/bx/n/24.88 Inference for Quan-ti-ta-tive Data: Means| 
+ []
+
+) (chapters/ch8.tex [8
+
+]
+Chapter 8.
+) (chapters/ch9.tex [9
+
+]
+Chapter 9.
+
+Overfull \hbox (30.1766pt too wide) in paragraph at lines 4--4
+|[]\OT1/cmss/bx/n/24.88 Inference for Quan-ti-ta-tive Data: Slopes| 
+ []
+
+) [10
+
+] (stats.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `stats.out' has not changed.
-(rerunfilecheck)             Checksum: 478B4F0055B504B8C4D178329A4E0B48;230.
+(rerunfilecheck)             Checksum: 1D539D7BE6535A846E781BDE5695AB9F;2033.
  ) 
 Here is how much of TeX's memory you used:
- 25518 strings out of 474485
- 496199 string characters out of 5740394
+ 25603 strings out of 474485
+ 498043 string characters out of 5740394
  1935542 words of memory out of 5000000
- 47331 multiletter control sequences out of 15000+600000
- 564815 words of font info for 63 fonts, out of 8000000 for 9000
+ 47378 multiletter control sequences out of 15000+600000
+ 564459 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,5n,124p,1247b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Augustine Su\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1000.pk><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on stats.pdf (3 pages, 61145 bytes).
+ <C:\Users\Augustine Su\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1000.pk><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on stats.pdf (10 pages, 60986 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,98 @@
 \documentclass[../em.tex]{subfiles}
 \graphicspath{{\subfix{../figures/}}}
 \begin{document}
-\chapter{Chapter 1}
-
-
+\chapter{Electric Charges, Fields and Gauss's Law}
+\section*{Brief Calculus Review}
+The derivative of a function at some point characterizes the rate of change of the function at that point; The rate of change of the function is basically the slope at that point.
+\smallbreak
+Because the derivative is a slope, the notation can be written as $f'(x)=\frac{\mathrm{d}x}{\mathrm{d}t}$.
+\smallbreak
+There are some derivative rules to know.
+\begin{itemize}
+    \item $\frac{\mathrm{d}}{\mathrm{d}x} = 0$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}(x) = C$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}x^n = nx^{n-1}$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}(f(x)\pm g(x))=\frac{\mathrm{d}}{\mathrm{d}x}f(x)\pm \frac{\mathrm{d}}{\mathrm{d}x}g(x)$
+\end{itemize}
+An integral is simply finding the area under a curve. 
+\smallbreak
+The integral notation is $f(x)=\int{f'(x)\mathrm{d}x}$
+\smallbreak
+In physics, we use the definite integral, where the area is found over an interval $[a,b]$.
+\smallbreak
+The notation for this is $A = \int_b^a{f'(x)\mathrm{d}x}=f(b)-f(a)$
+\smallbreak
+There are some integration rules to know as well.
+\begin{itemize}
+    \item $\int{\mathrm{d}x} = x+C$
+    \item $\int{x^n\mathrm{d}x}=\frac{1}{n+1}x^{n+1}, n \neq -1$
+    \item $\int{f(x)\pm g(x)\mathrm{d}x}=\int{f(x)\mathrm{d}x}\pm \int{g(x)\mathrm{d}x}$
+\end{itemize}
+A differential equation is an equation involving one or more derivatives of an unknown function. The order of a differential equation is defined to be the order of the highest derivative it contains.
+\smallbreak
+All differential equations are considered to be separable and can be solved by integration. This process is called separation of parts.
+\smallbreak
+Much like derivatives there are set of integrals that don't follow the basic power rule of integration. There are some special integral rules.
+\begin{itemize}
+    \item $\int{e^{ax}}\mathrm{d}x=\frac{1}{a}e^{ax}+C$
+    \item $\int \frac{\mathrm{d}x}{x+n}=\ln |x+a|+C$
+    \item $\int \cos(ax)\mathrm{d}x = \frac{1}{a}\sin(ax)$
+    \item $\int \sin(ax)\mathrm{d}x=\frac{-1}{a}\cos(ax)$
+\end{itemize}
+Integration by substitution is a way of undoing the derivative's chain rule. You need the integral to look like this:
+\smallbreak
+$\int f(g(x))g'(x)\mathrm{d}x=\int f(u)\mathrm{d}u$
+\smallbreak
+Here are some special derivatives:
+\begin{itemize}
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}e^{ax}=ae^{ax}$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}\ln ax = \frac{1}{x}$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}\sin ax = a\cos ax$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}\cos ax = -a\sin ax$
+\end{itemize}
+All derivatives on the formula sheet are written using the chain rule.
+\smallbreak
+The chain rule follows this general rule: $f(g(x))=f'(g(x))\cdot g'(x)$
+\smallbreak
+A vector is a quantity that has both magnitude and direction. The length of the line sohws its magnitude and the arrowhead points in the direction.
+To add vectors, place the tip of the first vector to the tail of the second vector.
+The resultant is the arrow drawn from the tail of the first vector to the tip of the second vector.
+\smallbreak
+The goal of subtracting vectors is to turn it into addition by finding the inverse of the second vector. Basically: $\vec{A}-\vec{B}=\vec{A}+(-\vec{B})$
+\smallbreak
+When adding or subtracting vectors algebraically, the first thing you need to do is to resolve the vectors into components.
+\begin{itemize}
+    \item $A_x = A\cos \theta$
+    \item $A_y = A\sin \theta$
+\end{itemize}
+Once all the vectors are broken down, you can add the horizontal and vertical components. This will give you the horizontal and vertical components of the resultant.
+\smallbreak
+To find the magnitude of the resultant, you can find the hypotenuse: $R = \sqrt{R_x^2+R_y^2}$. The direction can be found from $\theta = \tan^{-1}\left(\frac{R_y}{R_x}\right)$
+\smallbreak
+There are times when you need to "scale" up or down a vector. To do so, you multiply the magnitude of a vector, but not the direction, by a scalar.
+\smallbreak
+A unit vector has a magnitude of 1 and a direction that goes along one of the axes. 
+\smallbreak
+The dot product is the process of multiplying two vectors and getting a scalar answer in return. There are two ways to find this:
+\begin{itemize}
+    \item $\vec{a}\cdot \vec{b} = a_xb_x+a_yb_y$
+    \item $\vec{a}\cdot \vec{b} = |a||b|\cos \theta$
+\end{itemize}
+The second method also helps determine if the vectors are orthogonal, or perpendicular to each other.\smallbreak
+The cross product is the process of multiplying two vectors and getting a vector in return. The answer is a vector that is at a right angle to the two original vectors. The magnitude of the cross product equals the area of the parallelogram with the two original vectors as sides.
+\smallbreak
+The cross product is zero in length when the original vectors point in the same or opposite directions. It reaches maximum length when the original vectors are at right angles to each other.
+\smallbreak
+There are two ways to calculate the cross product.\smallbreak
+The first is $\vec{a} \text{x} \vec{b} = [|a||b|\sin \theta]\hat{n}$
+\smallbreak
+This method does not give you the direction of the vector.
+\smallbreak
+The second way is to use a set of formulas to find the components:
+\begin{itemize}
+    \item $C_x=a_yb_2-a_2b_y$
+    \item $C_y=a_2b_x-a_xb_2$
+    \item $C_z=a_xb_y-a_yb_x$
+\end{itemize}
+The direction is determined by the right hand rule. Your index finger points in the direction of vector a, your middle points in the direction of b, and your thumb points in the direction of the answer.
 \end{document}

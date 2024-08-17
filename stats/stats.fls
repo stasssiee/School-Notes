@@ -347,7 +347,54 @@ INPUT C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss
 INPUT C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
 INPUT C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex\latex\base\ts1cmss.fd
 INPUT C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcss1000.tfm
-INPUT C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssi10.tfm
+INPUT .\chapters\ch2.tex
+INPUT .\chapters\ch2.tex
+INPUT chapters\ch2.tex
+INPUT .\chapters\ch2.tex
+INPUT .\chapters\ch2.tex
+INPUT chapters\ch2.tex
+INPUT .\chapters\ch3.tex
+INPUT .\chapters\ch3.tex
+INPUT chapters\ch3.tex
+INPUT .\chapters\ch3.tex
+INPUT .\chapters\ch3.tex
+INPUT chapters\ch3.tex
+INPUT .\chapters\ch4.tex
+INPUT .\chapters\ch4.tex
+INPUT chapters\ch4.tex
+INPUT .\chapters\ch4.tex
+INPUT .\chapters\ch4.tex
+INPUT chapters\ch4.tex
+INPUT .\chapters\ch5.tex
+INPUT .\chapters\ch5.tex
+INPUT chapters\ch5.tex
+INPUT .\chapters\ch5.tex
+INPUT .\chapters\ch5.tex
+INPUT chapters\ch5.tex
+INPUT .\chapters\ch6.tex
+INPUT .\chapters\ch6.tex
+INPUT chapters\ch6.tex
+INPUT .\chapters\ch6.tex
+INPUT .\chapters\ch6.tex
+INPUT chapters\ch6.tex
+INPUT .\chapters\ch7.tex
+INPUT .\chapters\ch7.tex
+INPUT chapters\ch7.tex
+INPUT .\chapters\ch7.tex
+INPUT .\chapters\ch7.tex
+INPUT chapters\ch7.tex
+INPUT .\chapters\ch8.tex
+INPUT .\chapters\ch8.tex
+INPUT chapters\ch8.tex
+INPUT .\chapters\ch8.tex
+INPUT .\chapters\ch8.tex
+INPUT chapters\ch8.tex
+INPUT .\chapters\ch9.tex
+INPUT .\chapters\ch9.tex
+INPUT chapters\ch9.tex
+INPUT .\chapters\ch9.tex
+INPUT .\chapters\ch9.tex
+INPUT chapters\ch9.tex
 INPUT stats.aux
 INPUT .\stats.out
 INPUT .\stats.out
@@ -359,5 +406,3 @@ INPUT C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\fonts\type1\public\ams
 INPUT C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss8.pfb
 INPUT C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
-INPUT C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssi10.pfb
-INPUT C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssi10.pfb

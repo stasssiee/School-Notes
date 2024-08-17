@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.15)  15 AUG 2024 10:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.15)  17 AUG 2024 13:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Augustine Su/Documents/try/physics em/em.tex"
-(c:/Users/Augustine Su/Documents/try/physics em/em.tex
+**"c:/Users/Augustine Su/Documents/School Notes/physics em/em.tex"
+(c:/Users/Augustine Su/Documents/School Notes/physics em/em.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
@@ -879,7 +879,35 @@ File: uesint.fd
 
 {C:/Users/Augustine Su/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 Chapter 1.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 12.
+(C:\Users\Augustine Su\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
+File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [2
+
+]) (chapters/ch2.tex [3]
+Chapter 2.
+) (chapters/ch3.tex [4
+
+]
+Chapter 3.
+) (chapters/ch4.tex [5
+
+]
+Chapter 4.
+) (chapters/ch5.tex [6
+
+]
+Chapter 5.
+
+Overfull \hbox (22.38777pt too wide) in paragraph at lines 4--4
+|[]\OT1/cmss/bx/n/24.88 Magnetic Fields and Elec-tro-mag-netism| 
+ []
+
+) (chapters/ch6.tex [7
+
+]
+Chapter 6.
+) [8
 
 ] (em.aux)
  ***********
@@ -887,20 +915,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `em.out' has not changed.
-(rerunfilecheck)             Checksum: 83070A65BC3C251150A9D158CB2730BD;91.
+(rerunfilecheck)             Checksum: 8588D555A59F29546990E6C07C9944C6;1102.
  ) 
 Here is how much of TeX's memory you used:
- 25508 strings out of 474485
- 495586 string characters out of 5740394
- 1927542 words of memory out of 5000000
- 47329 multiletter control sequences out of 15000+600000
- 568306 words of font info for 80 fonts, out of 8000000 for 9000
+ 25596 strings out of 474485
+ 497765 string characters out of 5740394
+ 1939542 words of memory out of 5000000
+ 47384 multiletter control sequences out of 15000+600000
+ 570204 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,5n,124p,1240b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on em.pdf (2 pages, 33085 bytes).
+ 122i,5n,124p,1249b,646s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Augustine Su\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi600\esint10.pk> <C:\Users\Augustine Su\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1000.pk><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Augustine Su/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on em.pdf (8 pages, 147938 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

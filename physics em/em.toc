@@ -1,1 +1,6 @@
-\contentsline {chapter}{\numberline {1}Chapter 1}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Electric Charges, Fields and Gauss's Law}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Electric Potential}{4}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Conductors and Capacitors}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Electric Circuits}{6}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Magnetic Fields and Electromagnetism}{7}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Electromagnetic Induction}{8}{chapter.6}%

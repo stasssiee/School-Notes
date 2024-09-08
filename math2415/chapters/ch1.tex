@@ -175,5 +175,52 @@ The general equation of a plane in $\mathrm{R}^3$ with the plane passing through
 or 
 \[ax+by+cz=d\] where $d=ax_0+by_0+cz_0$.
 \section{Cylinders and Quadric Surfaces}
+A cylinder is a surface that is parallel to a line.
 
+A trace of a surface is the set of points at which the surface intersects a plane that is parallel to one of the coordinate planes. The traces in the coordinate planes are called the $xy$-trace, the $yz$-trace, and the $xz$-trace.
+
+To sketch quadric surfaces:
+\begin{itemize}
+    \item Determine the points where the surface intersects the coordinate axes. 
+    \item Finding traces of the surface helps visualize the surface
+    \item Sketch at least two traces in parallel planes
+\end{itemize}
+\begin{example}
+    For:
+    \begin{align*}
+        \frac{x^2}{9}+\frac{y^2}{16}+\frac{z^2}{25}=1
+    \end{align*}
+    We set certain variables to zero to find the $x$-intercept to be $\pm 3$, the $y$-intercept to be $\pm 4$ and the $z$-intercept to be $\pm 5$.
+    \smallbreak
+    We can also find the traces:
+    \begin{itemize}
+        \item $xy$: $\frac{x^2}{9}+\frac{y^2}{16}=1$
+        \item $xz$: $\frac{x^2}{9}+\frac{z^2}{25}=1$
+        \item $yz$: $\frac{y^2}{16}+\frac{z^2}{25}=1$
+    \end{itemize}
+    The resulting shape is a ellipsoid.
+\end{example}
+In general the equation of an ellipsoid is:
+\[\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1\]
+In this all traces are ellipses.
+
+For an elliptic cone the equation is:
+\[\frac{x^2}{a^2}+\frac{y^2}{b^2}=\frac{z^2}{c^2}\]
+Traces with $z = z_0 \neq 0$ are ellipses. Traces with $x=x_0$ or $y=y_0$ are hyperbolas or intersecting lines.
+
+For an elliptic paraboloid the equation is:
+\[z=\frac{x^2}{a^2}+\frac{y^2}{b^2}\]
+Traces with $z=z_0>0$ are ellipses. Traces with $x=x_0$ or $y=y_0$ are parabolas.
+
+For a hyperbolic paraboloid:
+\[z=\frac{x^2}{a^2}-\frac{y^2}{b^2}\]
+Traces with $z=z_0\neq 0$ are hyperbolas. Traces with $x=x_0$ or $y=y_0$ are parabolas.
+
+For a hyperboloid of one sheet:
+\[\frac{x^2}{a^2}+\frac{y^2}{b^2}-\frac{z^2}{c^2}=1\]
+Traces with $z=z_0$ are ellipses for all $z_0$. Traces with $x=x_0$ or $y=y_0$ are hyperbolas.
+
+For a hyperboloid of two sheets:
+\[-\frac{x^2}{a^2}-\frac{y^2}{b^2}+\frac{z^2}{c^2}=1\]
+Traces with $z=z_0$ with $|z_0|>|c|$ are ellipses. Traces with $x=x_0$ and $y=y_0$ are hyperbolas.
 \end{document}

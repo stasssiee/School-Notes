@@ -91,8 +91,85 @@ Remember the truth value for both $\forall x P(x)$ and $\exists x P(x)$ depends 
 Credit: Rosen's Discrete Mathematics 8e
 
 \section{Nested Quantifiers}
-\section{Rules of Inference}
-\section{Introduction to Proofs}
-\section{Proof Methods and Strategy}
+A nested quantifier is when one quantifier is in the scope of another.
 
+Here is table that summarizes different quantifications involving two variables.
+\begin{center}
+    \includegraphics[width=1\textwidth]{1.5.PNG}
+\end{center}
+\section{Rules of Inference}
+Rules of inference are our basic tools for establishing the truth of statements.
+
+An argument in propositional logic is a sequence of propositions. All but the final proposition in the argument are called premises and the final proposition is called the conclusion. An argument is valid if if the truth of all its premises implies the conclusion is true.
+
+An argument form in propositional logic is a sequence of compound propositions involving propositional variables. An argument form is valid if no matter what particular propositions are substituted for the propositional variables in the premises, the conclusion is true if the premises are all true.
+
+The tautology $(p\land(p\rightarrow q))\rightarrow q$ is the basis of the rule of inference modus ponens, or the law of detachment, basically: if $p$ and $p\rightarrow q \therefore q$
+
+Yet again another chart I took from Rosen.
+\begin{center}
+    \includegraphics[width=1\textwidth]{1.6.PNG}
+\end{center}
+Fallacies resemble rules of inference, the difference lies in that they are based in contingencies rather than tautologies.
+
+There are also some rules of inference for statements involving quantifiers.
+This is what Rosen summarized:
+\begin{center}
+    \includegraphics[width=1\textwidth]{1.6.1.PNG}
+\end{center}
+Because universal instantiation and modus ponens are so often used together, the combination of rules is called universal modus ponens. This rule tells us if $\forall x (P(x)\rightarrow Q(x))$ is true, and if $P(a)$ is true for a particular element $a$ in the domain of the universal quantifier, then $Q(a)$ must also be true. Note that by universal instantiation $P(a)\rightarrow Q(a)$ is true. By modus ponens, $Q(a)$ must also be true. 
+
+This is how it is described:
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{1.6.2.PNG}
+\end{center}
+There is also universal modus tollens:
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{1.6.3.PNG}
+\end{center}
+\section{Introduction to Proofs}
+A proof is a valid argument that establishes the truth of a mathematical statement. 
+
+A theorem is a statement that can be shown to be true. We show the truth using a proof.
+
+A less important theorem that is helpful in the proof of other results is called a lemma. 
+
+A corollary is a theorem that can be established directly from a theorem that has been proved. 
+
+A conjecture is a statement that is being proposed to be a true statement.
+
+A direct proof of a conditional statement $p\rightarrow q$ is constructed with the assumption that $p$ is true with the goal for the combination of $p$ being true and $q$ being false to never happen. 
+\begin{definition}
+    The integer $n$ is even if there exists an integer $k$ such that $n=2k$, and $n$ is odd if there exists an integer $k$ such that $n=2k+1$. Two integers have the same parity when both are even or both are odd; they have opposite parity when one is even and the other is odd.
+\end{definition}
+An indirect proof is a type of proof that is not direct. One example is proof by contraposition. Proofs by contraposition use the fact that $p\rightarrow q$ is equal to $\neg q \rightarrow \neg p$. We have to show $\neg q \rightarrow \neg p$ is true to show that $p\rightarrow q$ is true as well.
+
+We can prove that $p\rightarrow q$ is true if $p$ is false as well. This is called a vacuous proof. 
+
+If we show that $q$ is true in $p\rightarrow q$ this is called a trivial proof. 
+\begin{definition}
+    The real number $r$ is rational if there exist integers $p$ and $q$ with $q\neq 0$ such that $r=p/q$. A real number that is not rational is irrational.
+\end{definition}
+Suppose we want to prove a statement $p$ is true. Suppose that we can find a contradiction $q$ such that $\neg p \rightarrow q$ is true. Because $q$ is false, but $\neg p \rightarrow q$ is true, we can conclude $\neg p$ is false, meaning $p$ is true. 
+
+To find a contradiction $q$ that might help us find that $p$ is true, we can show that $\neg p \rightarrow (r\land \neg r)$ is true for some proposition $r$. This is called a proof by contradiction. 
+
+To prove a theorem in the form $p\leftrightarrow q$, we show that both $p\rightarrow q$ and $q\rightarrow p$ are both true. 
+
+Many incorrect arguments are based on a fallacy called begging the question or circular reasoning. This fallacy occurs when one or more steps of a proof are based on the truth of the statement being proved.
+\section{Proof Methods and Strategy}
+Suppose we have a conditional $(p_1\lor p_2\lor \cdots \lor p_n)\rightarrow q$. We can separate the proof into different cases, called proof by cases by proving each of the $n$ conditional statements.
+
+Some theorems can be proved by examining a relatively small number of examples. This is called proof by exhaustion. 
+
+The phrase "without loss of generality" (WLOG) means that we assert by proving one case of a theorem, no additional argument is required to prove other specified cases. 
+
+Many theorems are assertions that objects of a particular type exist. A theorem of this type is a proposition in the form $\exists xP(x)$, where $P$ is a predicate. A proof of a proposition in this form is called an existence proof. Sometimes an existence proof can be given by finding an element $a$, called a witness, such that $P(a)$ is true. This existence proof is called constructive. If we prove $\exists xP(x)$ is true in another way it can be nonconstructive.
+
+For a uniqueness proof, we need two parts:
+\begin{itemize}
+    \item Existence: We show that an element $x$ with the desired property exists.
+    \item Uniqueness: We show that if $x$ and $y$ both have the desired property, $x=y$
+\end{itemize}
+Forward reasoning is a proof when you start with your premises. You construct a proof with steps leading to the conclusion. It may sometimes be helpful to use backwards reasoning, we find a statement $p$ that we can prove $p\rightarrow q$. 
 \end{document}

@@ -111,4 +111,30 @@ In the world of statistics, it is not enough to just report the graph or just re
 Given a set of data, first you must create a graph for the data. If the data is categorical, use a bar graph. If the data is quantitative, if it's discrete, use a dot plot, stem plot, or boxplot. If it is continuous, use a histogram or box plot. 
 
 You want to summarize your findings after this. First, describe the shape. Next, describe if there are any outliers. Then, use the mean or median for the center of data. Lastly, describe the spread using range or IQR if you described the center with the median, or standard deviation if you described the center with mean. 
+\section{Z-Scores and the Empirical Rule}
+Normal distributions are appropriate for many distributions whoes shapes are unimodal and approximately symmetric.
+
+In the normal distribution, Mean = $\mu$, Standard deviation = $\sigma$, and this is written as $N(\mu,\sigma)$.
+
+A normal distribution curve has these properties:
+\begin{itemize}
+    \item Symmetric around the mean
+    \item mean = median = mode
+    \item 50\% of observations are greater than the mean and 50\% are less than the mean
+    \item The standard deviation tells us how measurements for a group of observations are spread out from the mean
+    \item In a normal distribution, approximately all the data lies 3 standard deviations above and below the mean
+\end{itemize}
+In a normal distribution, 68\% of the data is likely to be found within 1 standard deivation from the mean, 95\% found 2 standard deviations away, and 99.7\% 3 standard deviations away.
+
+To calculate how many standard deviations away from the mean an observation is, we use a z-score.
+\[z=\frac{x-\mu}{\sigma}\]
+Observations larger than the mean have positive z-scores, and observations smaller than the mean have negative z-scores.
+\section{The Standard Normal Curve}
+Using a calculator, we can determine what percentage of data falls above, below, or between specific z-scores.
+
+Using the calculator commands: 2ND -> Vars -> 2:normalcdf(), we can find the percentage of data in between two values. 
+
+We can also find the z-score that corresponds to a percentile.
+
+Using the calculator commands: 2ND -> Vars -> 3:invNorm(), we can find this.
 \end{document}

@@ -3,7 +3,65 @@
 \begin{document}
 \chapter{Sets, Functions, Sequences, Sums, and Matrices}
 \section{Sets}
+Sets are used to group objects together. 
+
+A set is an unordered collection of objects, called elements or members of the set. A set contains its elements. We write $a \in A$ to denote $a$ is in an element of set $A$. The notation $a\notin A$ denotes $a$ is not an element of set $A$.
+
+Here are some sets to remember:
+\begin{itemize}
+    \item $\mathbb N$ is the set of all natural numbers
+    \item $\mathbb Z$ is the set of all integers
+    \item $\mathbb Z^+$ is the set of all positive integers
+    \item $\mathbb Q$ is the set of all rational numbers
+    \item $\mathbb R$ is the set of all real numbers
+    \item $\mathbb R^+$ is the set all positive real numbers
+    \item $\mathbb C$ is the set of all complex numbers
+\end{itemize}
+Two sets are equal only if they contain the same elements.
+
+An empty set is notated as \O.
+
+A set with one element is a singleton set.
+
+Set $A$ is a subset of set $B$ and set $B$ is the superset of set $A$ if every element of $A$ is also an element of $B$. To indicate $A$ is a subset of $B$ we write $A\subseteq B$. For the equivalent superset, we write $B\supseteq A$.
+
+For every nonempty set $S$, there is a guarantee to have at least two subsets, the empty set and the set $S$ itself. 
+
+When we want to say that $A$ is a subset of $B$, but $A\neq B$, we can write $A\subset B$. 
+
+If there are $n$ distinct elements in a set $S$, then the set is finite and $n$ is the cardinality of $S$. The cardinality of $S$ is denoted as $|S|$.
+
+Otherwise, the set is infinite if it is not finite.
+
+\begin{definition}
+    Given a set $S$, the power set of $S$ is the set of all subsets of the set $S$. The power set of $S$ is defined as $\mathcal{P}(S)$.
+\end{definition}
+The power set of a set has $2^n$ elements. Because sets are unordered, we need to represent ordered collections using ordered $n$-tuples.
+\begin{definition}
+    The ordered $n$-tuple $(a_1, a_2,\cdots,a_n)$ is the ordered collection that has $a_1$ as its first element, 
+\end{definition}
 \section{Set Operations}
+If we let $A$ and $B$ be sets, the union of the sets, $A\cup B$, is the set that contains those elements that are either in $A$ or $B$, or in both.
+
+The intersection of the sets, $A\cap B$, is the set containing those elements in both $A$ and $B$.
+
+Two sets are called disjoint if the intersection of the sets is an empty set.
+
+The difference of sets $A$ and $B$, or $A-B$ is the set containing those elements that are in $A$ but not in $B$. It is also called the complement of $B$ with respect to $A$.
+
+\begin{definition}
+    Let $U$ be the universal set. The complement of set $A$ denoted as $\overline{A}$ is the complement of $A$ with respect to $U$. Therefore the complement of the set $A$ is $U-A$.
+\end{definition}
+
+Much like the last chapter, there are some set identities and properties
+\begin{center}
+    \includegraphics[width=1\textwidth]{discrete2.2.PNG}
+\end{center}
+Credits to Rosen again.
+
+The union of a collection of sets is the set that contains those elements that are members of at least one set in the collection.
+
+The intersection of a collection of sets is the set that contains those elemenets that are members of all sets in the collection.
 \section{Functions}
 \section{Sequences and Summations}
 

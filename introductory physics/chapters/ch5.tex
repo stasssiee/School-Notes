@@ -1,0 +1,176 @@
+\documentclass[../introphysics.tex]{subfiles}
+\graphicspath{{\subfix{../figures/}}}
+\begin{document}
+\chapter{Section 5}
+\section{Electric Charges and Forces, Coulomb's Law, Polarization}
+A property of matter is electric charge. There is a negative and positive electric charge. 
+Like charges will repel, and opposite charges will attract.
+
+The law of conservation of electric charge states that the total charge of the universe 
+remains unchanged in all observed processes. If $+Q$ is created somewhere, $-Q$ is also created.
+
+Atoms have generally been considered positively charged. Negatively charged 
+electrons orbit around the nucleus. Atoms can lose or gain electrons and have a net electric charge. 
+These are called ions. We call a molecule with asymmetrical distribution of charges polar.
+
+Materials in which electric charge is easily transported are called conductors. 
+Insulators are the opposite. Semiconductors are in the middle.
+
+Charge can be transferred through direct contact from one electrically charged object to another. 
+Conductors can also be charged without direct contact. We can charge by induction - firstly 
+there will be a pair of consecutive bodies that has no net electric charge. Then, a positive 
+charged object is brought near one of the objects, then the wire is cut and will leave one side 
+positive charged and the other negatively charged. Electroscopes and electrometers are used to measure electric charge.
+
+Coulomb's Law is the relationship between the size of the force between charges to the amount of 
+charge and distance separating the charges. We write this as:
+\[F=k\frac{Q_1Q_2}{r^2}\]
+
+Note that the charge of an electron is $1.602\times10^{-19}$ C and the value of $k$ is $8.988\times10^9$ N$\cdot$m$^2$/C$^2$. 
+
+Sometimes $k$ is written as
+\[k=\frac{1}{4\pi\epsilon_0}\]
+where $\epsilon_0 = 8.85\times10^{-12}$ C$^2$/N$\cdot$m$^2$.
+
+We can also rewrite Coulomb's Law in a vector expression that includes the information about the direction of the force:
+\[\textbf{F}_{12}=k\frac{Q_1Q_2}{r_{21}^2}\hat{\textbf{r}}_{21}\]
+Note that in this expression $Q_1$ and $Q_2$ will bear the signs of the charges, 
+where the above equation will be the magnitude. $\hat{\textbf{r}}_{21}$ is the 
+unit vector that points in the direction from charge $Q_2$ to charge $Q_1$. 
+
+\section{Electric Field Lines, Superposition, Inductive Charging, Induced Dipoles}
+The electric field $\textbf{E}$, at a given point in space is defined as the electric force 
+$\textbf{F}$, on a small test charge, $q$, divided by the charge:
+\[\textbf{E}=\frac{\textbf{F}}{q}\]
+A small test charge is a charge small enough to not change the distribution of charge that cause the force on the test charge.
+
+The electric field created by a point charge $Q$ is:
+\[\textbf{E}=\frac{\textbf{F}}{q}=k\frac{Qq}{qr^2}\hat{\textbf{r}}=k\frac{Q}{r^2}\hat{\textbf{r}}\]
+where $r$ is the distance from charge $Q$ to the point at which the electric field is 
+being evaluted and $\hat{\textbf{r}}$ is the unit vector that points from the charge $Q$ to 
+the point at which the electric field is evaluated.
+
+Electric fields can add to each other like vectors do:
+\[\textbf{E}=\textbf{E}_1+\textbf{E}_2+\textbf{E}_3+\cdots\]
+
+This is called the principle of superposition for electric fields.
+
+In many cases, there it is impossible to sum the electric field from each of 
+the individual charges, but it can be treated by a continuous charge density.
+
+For each infinitesimal charge element $\mathrm{d}q$ in the distribution of charge, 
+there is an infinitesimal contribution to the net electric field $\mathrm{d}\textbf{E}$, where:
+\[\mathrm{d}\textbf{E}=k\frac{\hat{\textbf{r}}}{r^2}\mathrm{d}q\]
+The distance from the charge element to the point at which the field is 
+being evaluated is $r$ and the unit vector in the direction from the charge 
+element to the point being evaluated is $\hat{\textbf{r}}$. 
+
+To determine the electric field at a given point, we integrate over all of the infinitesimal charge elements:
+\[\textbf{E}=\int\mathrm{d}\textbf{E}=\int k\frac{\hat{\textbf{r}}}{r^2}\mathrm{d}q\]
+
+Because charge distribution is often a known function of spatial location, we 
+almost always will change variables in the integral and write charge density as a function of position. 
+
+For a linear charge density, we write:
+\[\mathrm{d}q=\lambda\mathrm{d}l\]
+where $\lambda$ is the linear charge density (charge per unit length) and $\mathrm{d}l$ 
+is an infinitesimal line element along the charge distribution.
+
+If the charge distribution is a surface charge density, we write:
+\[\mathrm{d}q=\sigma\mathrm{d}A\]
+where $\sigma$ is the surface charge density and $\mathrm{d}A$ is an infinitesimal area element of the charge distribution.
+
+If the charge is three-dimensional, we write:
+\[\mathrm{d}q=\rho\mathrm{d}V\]
+where $\rho$ is the volume charge density, and $\mathrm{d}V$ is an infinitesimal volume element.
+
+A type of diagram that is used to help visualize the electric field is a 
+diagram of electric field lines. An electric field line only gives information 
+about the direction of an electric field.
+
+Electric field lines only begin on positive charges and end on negative charges. 
+The number of lines starting or ending on a given charge is proportional to the magnitude of the charge.
+
+A given line has its tangent at a given point in the direction of the electric field at that point.
+
+The magnitude of the electric field is proportional to the density of the electric 
+field lines passing through a plane perpendicular to the direction of the electric field.
+
+There will be no electric field inside a conductor. The electric field at the 
+surface just external to the conductor must be perpendicular to the conductor under static conditions.
+
+The force of an object with charge $q$ in an electric field $\textbf{E}$ is given by:
+\[\textbf{F}=q\textbf{E}\]
+
+A particular distribution of charge that is often a good approximation to many physical situations is the electric dipole.
+
+An electric dipole is two charges of equal magnitude but opposite sign separated by a 
+displacement $\textbf{d}$. This displacement is the displacement of the positive charge 
+from the negative charge, basically it points from the location of the negative charge to 
+the location of the positive charge.
+
+The electric dipole moment $\textbf{p}$ is a vector given by:
+\[\textbf{p}=Q\textbf{d}\]
+If $l$ is the length of the displacement vector $\textbf{d}$ we can write the magnitude of the dipole moment $p=Ql$.
+
+In an electric field, a dipole experiences a torque:
+\[\tau=\textbf{p}\times\textbf{E}\]
+
+As the dipole is rotated by the electric field, work is done on the dipole by the torque. 
+The potential energy associated with the orientation of the dipole moment in the electric field is given by:
+\[U=-\textbf{p}\cdot\textbf{E}\]
+
+A dipole in a uniform electric field feels no net electric force. In a uniform electric field, the 
+positive charge and the negative charge of the dipole experience equal magnitude and opposite direction forces. 
+An electric dipole in a non-uniform electric field can experience a net electric foce because the electric field 
+can be different at the locations of the positve and negative charges.
+
+\section{Electric Flux, Gauss' Law, Examples}
+The electric flux $\phi_E$ passing through a planar surface of area $A$ that lies in a plane perpendicular to a 
+uniform electric field of magnitude $E$ is defined to be:
+\[\phi_E=EA\]
+
+If the plane of the area $A$ is not perpendicular to the electric field, the electric flux instead is:
+\[\phi_E=EA_{\perp}\cos\theta\]
+where $A_{\perp}$ is the area of the projection of the area $A$ onto a plane perpendicular to the 
+electric field and $\theta$ is the angle between the electric field and the direction of the perpendicular to the area. 
+
+If we define a vector $\textbf{A}$ that has magnitude $A$ and a direction of the perpendicular 
+to the area, the electric flux is written as:
+\[\phi_E=EA\]
+
+If the electric field is non-uniform and a general surface, we can consider the flux through infinitesimal areas 
+$\mathrm{d}A$ and integrate the flux over the surface:
+\[\phi_E=\int E\cdot\mathrm{d}A\]
+
+When the surface is a closed surface, a surface that separates space into an interior and exterior, we write it as:
+\[\phi_E=\oint E\cdot\mathrm{d}A\]
+
+A closed surface has a definite inside and outside. The area vector $\mathrm{d}A$ always points outward for a closed volume. 
+Electric field entering a closed surface constributes to negative flux and electric field leaving a closed 
+surface contributes to positive flux.
+
+The electric flux through a closed surface is proportional to the charge within the closed surface:
+\[\oint E\cdot\mathrm{d}A=\frac{Q_{encl}}{\epsilon_0}\]
+
+This is called Gauss's Law. Gauss's Law is more general than Coulomb's Law in that it applies to 
+situations where there is an electric field that is not produced by a charge distribution.
+
+We can use Gauss's Law to determine an unknown electric field from a given charge distribution using a surface with correct symmetry. 
+
+Experimentally, Gauss's Law and Coulomb's Law are in agreement to very high amounts of precision. 
+If we wanted to measure deviation we would have:
+\[F=k\frac{Q_1Q_2}{r^{2+\delta}}\]
+where $\delta$ is $(2.7\pm 3.1)\times10^{-16}$.
+
+\section{Electrostatic Potential, Electric Energy, Equipotential Surfaces}
+\section{E= -grad V, Conductors, Electrostatic Shielding (Faraday Cage)}
+\section{High-voltage Breakdown, Lightning, Sparks, St-Elmo's Fire}
+\section{Capacitance, Electric Field Energy}
+\section{Polarization, Dielectrics, Van de Graaff Generator, Capacitors}
+\section{Electric Currents, Resistivity, Conductivity, Ohm's Law}
+\section{Batteries, Power, Kirchhoff's Rules, Circuits, Kelvin Water Dropper}
+\section{Magnetic Fields, Lorentz Force, Torques, Electric Motors (DC)}
+\section{Section 5 Review}
+
+\end{document}

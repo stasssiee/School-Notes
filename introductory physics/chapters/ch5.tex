@@ -164,8 +164,106 @@ If we wanted to measure deviation we would have:
 where $\delta$ is $(2.7\pm 3.1)\times10^{-16}$.
 
 \section{Electrostatic Potential, Electric Energy, Equipotential Surfaces}
-\section{E= -grad V, Conductors, Electrostatic Shielding (Faraday Cage)}
-\section{High-voltage Breakdown, Lightning, Sparks, St-Elmo's Fire}
+As charge is moved through an electric field, the electric force due to a 
+static charge distribution does work on the charge. This force is a conservative
+force. We can write a potential energy function of position for the static
+force because it is conservative, $U_a$, where $a$ labels the position at 
+which the potential energy is evaluated. We define electric potential at point
+$a$, $V_a$, as the potential energy at point $a$ per unit charge:
+\[V_a=\frac{U_a}{q}\]
+
+Only the change in electric potential has physical meaning. This means that 
+any potential energy function that is used can have a constant added to it
+at all points in space and still be a correct potential energy function.
+
+The work done by an electric field in moving a charge $q$ from point $a$ to 
+point $b$, $W_{ab}$ is equal to the negative of the change in potential energy:
+\[W_{ab}=-\Delta U_{ab}=-q(V_b-V_a)\]
+
+This can be rewritten as the change in electric potential $V_{ba}$, called the
+potential difference:
+\[V_{ba}=V_b-V_a=-\frac{W_{ba}}{q}\]
+
+The relationship between potential energy change and force can be found from the
+definition of work done by a force:
+\[U_b-U_a=-\int_a^bF\cdot\mathrm{d}l\]
+
+When we divide both sides of this equation by the charge $q$, we get a relationship
+between the change in electric potential and electric field:
+\[\frac{U_b-U_a}{q}=\frac{\int_a^b F\cdot\mathrm{d}l}{q}\Rightarrow V_b-V_a=-\int_a^b E\cdot\mathrm{d}l\]
+
+In the case of a uniform electric field, we end up getting:
+\[V_b-V_a=Ed\]
+where $E$ is the magnitude of the electric field and $d$ is the distance between
+the two points in the direction of the electric field.
+
+It is relatively easy to derive the potential energy for a point charge. 
+For a point charge $Q$, the electric field is given by:
+\[E=\frac{kQ}{r^2}\hat{\textbf{r}}\]
+where $r$ is the distance from the charge and $\textbf{r}$ is the unit vector
+that points from the charge to the point at which the electric field is being evaluated.
+The change in electric potential in going from position $\textbf{r}_a$ to position $\textbf{r}_b$ is:
+\[V_b-V_a=\int_{r_a}^{r_b}E\cdot\mathrm{d}l=\int_{r_a}^{r_b}\frac{kQ}{r^2}\hat{r}\cdot\mathrm{d}l=\int_{r_a}^{r_b}\frac{kQ}{r^2}\mathrm{d}r=\frac{kQ}{r_b}-\frac{kQ}{r_a}\]
+where $\mathrm{d}r$ is the change in distance from the charge when moving along the path element $\mathrm{d}l$.
+It is easy to see that an electric potential function of the form:
+\[V(r)=\frac{kQ}{r}+C\]
+where $C$ is an arbitrary constant potential, is consistent with the difference
+in potential energy derived above. If we choose the constant potential so that the electric 
+potential goes to zero as the distance from the charge becomes infinitely large then:
+\[V(r)=\frac{kQ}{r}\]
+
+Because the electric fields of individual point charges add to determine the net
+electric field, the electric potentials of individual point charges add to determine 
+the total electric potential at a point in space. We write the potential at 
+point $a$, $V_a$, due to $n$ other charges as:
+\[V_a=\sum^n_{i=1}V_{ia}=\frac{1}{4\pi\epsilon_0}\frac{kQ_i}{r_{ia}}\]
+where $i$ is an index that labels each of the $n$ charges, $V_{ia}$ is the potential at 
+position $a$ due to the $i$th charge, $Q_i$ is the value of the $i$th charge,
+and $r$ is the distance from the $i$th charge to point $a$.
+
+If the charge distribution is continuous or can be approximated as continuous 
+then the sum can become an integral:
+\[V_a=\frac{1}{4\pi\epsilon_0}\int \frac{\mathrm{d}}{r}=\frac{1}{4\pi\epsilon_0}\int \frac{\rho}{r}\mathrm{d}V\]
+where $r$ is the distance of a charge $\mathrm{d}q$ from point $a$ and $\rho$ 
+is the density of charge in the volume $\mathrm{d}V$.
+
+Surfaces at the same potential are called equipotential surfaces. It is often useful
+to draw equipotential surfaces for a given arrangement of charge.
+
+The electric potential is always perpendicular to any equipotential surface. 
+If a contour map of equipotential surfaces is drawn with equal potential differences
+between the different contour lines, the electric field magnitude is proportional
+to the density of equipotential lines in a given region of space.
+
+The surface of a conductor is an equipotential surface and the electric field
+always points perpendicular to the surface of a conductor when there is a static charge distribution.
+
+A particular arrangement of charge is often encountered in systems of interest of if 
+often a good approximation to systems of interest is the electric dipole.
+
+An electric dipole is defined to be two charges of equal magnitude $Q$ but 
+opposite sign separated by a distance $l$. The magnitude of the dipole moment, $p$, of a pair 
+of charges arranged in this manner is:
+\[p=Ql\]
+
+The dipole moment is a vector that points in the direction from the positive
+of the negative charge to the positive charge.
+
+If we take the derivative of the differential form of the definition of work and divide by the charge, we get:
+\[\mathrm{d}V=-\textbf{E}\cdot\mathrm{d}=-E_1\mathrm{d}l\]
+where $E_1$ is the component of $\textbf{E}$ in the direction of displacement $\mathrm{d}l$.
+
+We can rearrange this to:
+\[E_1=-\frac{\mathrm{d}V}{\mathrm{d}l}\]
+
+If we let $\mathrm{d}l$ be along the Cartesian directions, we see that:
+\[ E_x = -\frac{\partial V}{\partial x}, E_y=-\frac{\partial V}{\partial y}, E_z=-\frac{\partial V}{\partial z}\]
+
+A convenient unit of energy for dealing with electrons, atoms, and molecules is the electron volt (eV).
+The electron volt is defined as the increase in electrostatic energy of the charge
+equal to that of the charge of an electron when it changes electric potential by $-1$V:
+\[ 1\text{eV}=1.602\times10^{-19}\text{J}\]
+
 \section{Capacitance, Electric Field Energy}
 \section{Polarization, Dielectrics, Van de Graaff Generator, Capacitors}
 \section{Electric Currents, Resistivity, Conductivity, Ohm's Law}

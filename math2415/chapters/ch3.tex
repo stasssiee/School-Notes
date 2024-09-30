@@ -3,9 +3,145 @@
 \begin{document}
 \chapter{Functions of Several Variables}
 \section{Graphs and Level Curves}
+\begin{definition}
+A function $z=f(x,y)$ assigns to each point $(x,y)$ in a set $D$ in $\mathbb{R}^2$ a unique
+real number $z$ in a subset of $\mathbb{R}$. The set $D$ is the domain of $f$. The range of $f$
+is the set of all real numbers $z$ that are assumed as the points $(x,y)$ vary over the domain.    
+\end{definition}
+
+\begin{example}
+    Find the domain of 
+    \[f(x,y)=\frac{1}{\sqrt{x^2+y^2-25}}\]
+
+    Note that the denominator cannot be zero or is negative. 
+
+    Therefore, the domain is $D = {(x,y): x^2+y^2>25}$. 
+\end{example}
+
+\begin{definition}
+    For a function of two variables $f(x,y)$ a level curve is the set of points
+    $(x,y)$ in the $xy$-plane where $f(x,y)$ is equal to a constant $z_0$.
+\end{definition}
+
+We can extend our defintions to functions of more than two variables.
+
+\begin{definition}
+    For a function of three variables $f(x,y,z)$ a level surface is the set of points
+    $(x,y,z)$ in $xyz$-space where $f(x,y,z)$ is equal to a constant $w_0$.
+\end{definition}
+
+We can describe level surfaces as well.
+
 \section{Limits and Continuity}
+We can write the limit of two variables as:
+\[ \lim_{{(x,y)}\to{(a,b)}}f(x,y)=\lim_{P\to P_0}f(x,y)=L\]
+
+There are some laws of limits.
+\begin{theorem}
+    Let $a,b$, and $c$ be real numbers.
+
+    \begin{itemize}
+        \item Constant function $f(x,y) = c$:
+        \[\lim_{(x,y)\to(a,b)}c=c\]
+        \item Linear function $f(x,y) = x$:
+        \[\lim_{(x,y)\to(a,b)}x=a\]
+        \item Linear function $f(x,y) = y$:
+        \[\lim_{(x,y)\to(a,b)}y=b\]
+    \end{itemize}
+\end{theorem}
+
+If we let the limit of a function $f(x,y)=L$ and the limit of a function $g(x,y) = M$, we can see:
+\begin{itemize}
+    \item The sum of the limits is $L+M$.
+    \item The difference of the limits is $L-M$.
+    \item If we multiply a function by a constant $c$, the limit is $cL$.
+    \item The product of the limits is $LM$.
+    \item The difference of the limits is $\frac{L}{M}$.
+    \item Putting a limit to a power $n$ is $L^n$.
+\end{itemize}
+
+\begin{definition}
+    Let $R$ be a region in $\mathbb{R}^2$. An interior point $P$ of $R$ lies entirely within $R$, which
+    means it is possible to find a disk centered at $P$ that contains only points of $R$.
+
+    A boundary point $Q$ of $R$ lies on the edge of $R$ in the sense that every disk centered at $Q$
+    contains at least one point in $R$ and at least one point not in $R$.
+\end{definition}
+
+\begin{definition}
+    A region is open if it consists entirely of interior points. A region is closed if it contains all its boundary points.
+\end{definition}
+
+The two-path test for nonexistence of limits:
+
+If $f(x,y)$ approaches the two different values as $(x,y)$ approaches $(a,b)$ along two different paths in the domain of $f$,
+then the limit does not exist.
+
+\begin{definition}
+    The function $f$ is continuous at the point $(a,b)$ provided:
+    \begin{itemize}
+        \item $f$ is defined at $(a,b)$.
+        \item The limit for $f$ exists.
+        \item The two quantities must be equal.
+    \end{itemize}
+    
+\end{definition}
+
 \section{Partial Derivatives}
+The idea of a partial derivative is to differentiate $f$ with respect to one variable, treating the other variable as a constant.
+\begin{definition}
+    The partial derivative of $f$ with respect to $x$ at the point $(a,b)$ is:
+    \[f_x(a,b)=\lim_{h\to 0}\frac{f(a+h,b)-f(a,b)}{h}\]
+    The partial derivative of $f$ with respect to $y$ at the point $(a,b)$ is:
+    \[f_y(a,b)=\lim_{h\to 0}\frac{f(a+h)-f(a,b)}{h}\]
+    provided these limits exist.
+
+    The notation for these are:
+    \[f_x = \frac{\partial f}{\partial x} \qquad f_y=\frac{\partial f}{\partial y}\]
+\end{definition}
+
+We can first partially differentiate $f$ with respect to $x$ and then with respect to $x$ denoted as:
+\[\frac{\partial^2f}{\partial x^2}\]
+
+We can do it first with respect to $x$ and then with respect to $y$ denoted as:
+\[\frac{\partial^2f}{\partial y \partial x}\]
+
+We can also differentiate with respect to $y$ and then with respect to $x$:
+\[\frac{\partial^2f}{\partial x \partial y}\]
+
+Lastly, we can differentiate with respect to $y$ twice:
+\[\frac{\partial^2f}{\partial y^2}\]
+
+\begin{theorem}[Equality of Mixed Partial Derivatives]
+    Assume $f$ is defined on an open set $D$ of $\mathbb{R}^2$, and that $f_{xy}$
+    and $f_{yx}$ are continuous throughout $D$. Then $f_{xy}=f_{yx}$ at all points of $D$. 
+\end{theorem}
+
 \section{The Chain Rule}
+\begin{theorem}
+    Let $z$ be a differentiable function on $x$ and $y$ on its domain, where $x$ and $y$ are differentiable functions
+    of $t$ on an interval $I$. Then
+    \[\frac{\mathrm{d}z}{\mathrm{d}t}=\frac{\partial{z}}{\partial{x}}\frac{\mathrm{d}x}{\mathrm{d}t}+\frac{\partial z}{\partial y}\frac{\mathrm{d}y}{\mathrm{d}t}\]
+\end{theorem}
+
+Let's suppose that we have a function $w=f(x,y,z)$ where $x,y,z$ depend on $t$.
+
+Then we have:
+\[\frac{\mathrm{d}w}{\mathrm{d}t}=\frac{\partial w}{\partial x}\frac{\mathrm{d}x}{\mathrm{d}t}+\frac{\partial w}{\partial y}\frac{\mathrm{d}y}{\mathrm{d}t}+\frac{\partial w}{\partial z}\frac{\mathrm{d}z}{\mathrm{d}t}\]
+
+\begin{theorem}
+    Let $z$ be a differentiable function of $x$ and $y$, where $x$ and $y$ are differentiable functions of $s$ and $t$. Then
+    \[\frac{\partial z}{\partial s}=\frac{\partial z}{\partial x}\frac{\partial x}{\partial s}+\frac{\partial z}{\partial y}\frac{\partial y}{\partial s}\]
+    and
+    \[\frac{\partial z}{\partial s}=\frac{\partial z}{\partial x}\frac{\partial x}{\partial t}+\frac{\partial z}{\partial y}\frac{\partial y}{\partial t}\]
+\end{theorem}
+
+\begin{theorem}
+    Let $F$ be differentiable on its domain and suppose $F(x,y) = 0$ defines $y$ as a 
+    differentiable function of $x$. Provided $F_y\neq 0$,
+    \[\frac{\mathrm{d}y}{\mathrm{d}x}=-\frac{F_x}{F_y}\]
+\end{theorem}
+
 \section{Directional Derivatives and the Gradient}
 \section{Tangent Planes and Linear Approximation}
 \section{Maximum/Minimum Problems}

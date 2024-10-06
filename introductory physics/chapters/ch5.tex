@@ -265,7 +265,85 @@ equal to that of the charge of an electron when it changes electric potential by
 \[ 1\text{eV}=1.602\times10^{-19}\text{J}\]
 
 \section{Capacitance, Electric Field Energy}
+For a particular geometry of two conductors, a particular charge of $+Q$ on one of the conductors and a charge of $-Q$ on the 
+other conductor will cause a potential difference $V$ between the two conductors. The ratio of the charge $Q$ to the 
+potential difference is called the capacitance, $C$, of the system of conductors;
+\[C=\frac{Q}{V}\]
+
+The dimensions are charge per volt, and the SI unit is the farad, $F$, which is one coulomb/volt.
+
+A device constructed to provide capacitance to an electrical circuit is called a capacitor.
+
+For some symmetric arrangements of conductors, we can determine the capacitance by using our knolwedge of electric fields near certain arrangements of charge.
+For two conductive parallel flat plates of equal area, $A$, separated by a distance $d$ perpendicular to the plane of areas, the capacitance is:
+\[C=\frac{\epsilon_0 A}{d}\]
+
+For two concentric conductive cylinders of length $L$, the capacitance is
+\[C=\frac{2\pi\epsilon_0 L}{\ln(R_a/R_b)}\]
+where $R_a$ is the radius of the outer cylinder and $R_b$ is the radius of the inner cylinder.
+
+For two concentric conductive spherical shells, the capacitance is 
+\[C=4\pi\epsilon_0\frac{r_ar_b}{r_b-r_a}\]
+where $r_a$ is the inner radius of the outer shell and $r_b$ is the outer radius of the inner shell.
+
+A single conductor has the capacitance defined as the ratio of the charge on the conductor to the potential difference of the conductor to the potential at an infinite distance away. 
+The capacitance of an isolated conductive sphere or spherical shell of outer radius $r$ is
+\[C=4\pi\epsilon_0 r\]
+
+Capacitors are connected in parallel if they are connected in such a way that the potential difference across each is identical.
+
+The conductors connecting the upper plates ensure that all of the upper plates are at the same potential as each other. 
+The conductors connecting the lower plates also ensure that all of the lower plates are all at the same potential. When they are connected in this manner, the capacitance of the circuit between the plates is the sum:
+\[C_{eq}=C_1+C_2+C_3\]
+
+Generalized to $n$ capacitors we have
+\[C_{eq}=\sum^n_{i=1}C_i\]
+
+Capacitors are connected in series if the charge on each capacitance is forced to always be equal. The equivalent capacitance between the first and final terminals is the reciprocal of the sum of the reciprocals of the individual capacitances:
+\[\frac{1}{C_{eq}}=\frac{1}{C_1}+\frac{1}{C_2}+\frac{1}{C_3}\]
+or generalized to $n$ capacitors:
+\[\frac{1}{C_{eq}}=\sum^n_{i=1}\frac{1}{C_i}\]
+
+The electric potential energy is stored in a capacitor when it is charged. The potential energy can be written in several ways
+\[U=\frac{1}{2}QV=\frac{1}{2}CV^2=\frac{1}{2}\frac{Q^2}{C}\]
+
+Because the electric field between the plates of the capacitor is a well-defined function of the charge on the plates of the capacitor, we can alternatively write the potential energy stored in terms of the electric field:
+\[U=\frac{1}{2}\epsilon_0 E^2 Ad\]
+
+We can divide through by the volume to obtain an energy density, $u$, the energy per volume in the electric field:
+\[u=\frac{1}{2}\epsilon_0 E^2\] 
+
 \section{Polarization, Dielectrics, Van de Graaff Generator, Capacitors}
+When an insulating material, also aclled a dielectric, is placed between the plates of a capacitor, 
+the capacitance is altered from the capcitance without the insulator in place.
+
+We write the capacitance with the dielectric plate in place, $C$, as 
+\[C=KC_0\]
+where $C_0$ is the capacitance without any material between the plates and $K$ is called the dielectric constant of the 
+material. If we combine this expression for the capacitance with the expression for a parallel plate capacitor, we get
+\[C=\frac{k\epsilon_0 A}{d}\]
+Often, the dielectric constant and the free space permittivity are combined and called the permittivity, $\epsilon$, of the dielectric material:
+\[\epsilon = K\epsilon_0\]
+Then the parallel plate capacitance can be written as
+\[C=\frac{\epsilon A}{d}\]
+
+The reason a dielectric reduces the electric field in the interior of the dielectric 
+is because the applied electric field causes charge to move in the dielectric. The charge does 
+not move freely in the dielectric, but the electrons in the atoms of the dielectric move slightly opposite to the direction of the leectric field 
+and the nuclei of the atoms of the dielectric move slightly in the direction of the electric field.
+If this occurs for all the atoms, the net effect is that there will be a positive charge density on the surface 
+of the material that the electric field is pointing toward and a negative surface charge density on the surface the electric field is pointing away from.
+
+If we write the electric field inside the dielectric, we can get:
+\[E_D=\frac{E_0}{K}\]
+
+We can determine the electric field due to the polarization of the molecules within the material:
+\[E_D=E_0+E_{induced}\implies E_{induced}=E_D-E_0=-E_0\left(1-\frac{1}{K}\right)\] 
+The minus sign means that the induced field points in the direction opposite to the applied field. 
+The induced field is due to the induced surface charge density. We can use the induced electric field to determine the induced charge surface density:
+\[E_{induced}=\frac{\sigma_{induced}}{\epsilon_0}\]
+
+
 \section{Electric Currents, Resistivity, Conductivity, Ohm's Law}
 \section{Batteries, Power, Kirchhoff's Rules, Circuits, Kelvin Water Dropper}
 \section{Magnetic Fields, Lorentz Force, Torques, Electric Motors (DC)}
